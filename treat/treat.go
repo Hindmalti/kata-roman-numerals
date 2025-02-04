@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func check_number(reader bufio.Reader) int {
+func Check_number(reader bufio.Reader) int {
 	for {
 		fmt.Print("Give an arabic number, I'll convert it for you: ")
 		input, _ := reader.ReadString('\n')
@@ -30,7 +30,7 @@ func check_number(reader bufio.Reader) int {
 	}
 }
 
-func treat(chiffre int) {
+func Treat(chiffre int) {
 	// 1 --> I
 	// 10 --> X
 	//7 --> VII
