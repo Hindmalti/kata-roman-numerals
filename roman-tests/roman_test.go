@@ -1,12 +1,10 @@
 package romantests
 
 import (
+	"testing"
 	"github.com/Hindmalti/kata-roman-numerals"
-
-
 )
-
-func test(){
-	result := treat(1)
+func TestTreat(t *testing.T){
+	result := main.Treat(1)
 	println(result)
 }
